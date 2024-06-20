@@ -152,3 +152,4 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 npm start
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
