@@ -26,3 +26,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git remote set-url origin https://github.com/amandatallman/learn-celestial-bodies-database.git
 git branch -M main
 git push -u origin main
+psql --username=freecodecamp --dbname=postgres
